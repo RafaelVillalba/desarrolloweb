@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cifrador Cesar</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" type="text/javascript" defer></script>
+</head>
+<body>
+    <main>
+        <h1>Cifrador XDXD Para cifrar mis archivos jajaj</h1>
+        <form id="cifrador" autocomplete="off">
+            <!--spellcheck es para que no aparezcan las señales de error ortografico-->
+            <input id="input-original" spellcheck="false" placeholder="Ingrese el Texto" type="text" name="text">
+        </form>
+        <div id="resultado">
+
+        </div>
+        <div class="rango">
+            <input id="rango" type="range" value="10" min="1" max="20" oninput="this.nextElementSibling.value = this.value">
+            <output>10</output>
+        </div>
+    </main>
+</body>
+</html>
