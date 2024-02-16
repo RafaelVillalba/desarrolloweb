@@ -4,6 +4,10 @@ const cifrador = document.getElementById('cifrador');
 const resultado = document.getElementById('resultado');
 const rango = document.getElementById('rango');
 
+//variables para probar git
+const variableprueba = "Estoy creando esta variable para practicar git";
+const variable2 = "Estas variables no sirven para nada";
+
 const shifMessage = () => {
     const wordArray = [...inputOriginal.value.toUpperCase()];
     //alert(wordArray);
